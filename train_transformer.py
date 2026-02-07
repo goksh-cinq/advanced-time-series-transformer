@@ -29,7 +29,6 @@ model = TimeSeriesTransformer(
 criterion = nn.MSELoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
 
-EPOCHS = 25
 
 # Training loop
 for epoch in range(EPOCHS):
